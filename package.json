@@ -3,9 +3,33 @@
   "version": "0.0.1",
   "description": "The must-watch Denzel's movies",
   "dependencies": {
+    "async-retry": "^1.2.3",
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.1.13",
     "node-fetch": "^2.3.0",
     "p-limit": "^2.2.0",
-    "p-settle": "^2.1.0"
-  }
+    "p-settle": "^2.1.0",
+    "random-js": "^2.0.0-rc3"
+  },
+  "main": "sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fyxneo/denzel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fyxneo/denzel/issues"
+  },
+  "homepage": "https://github.com/Fyxneo/denzel#readme"
 }
